@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
+    "lib": ["ES2015"],
+    "jsx": "react-jsx",
+    "outDir": "./dist"
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist", "typings", "**/__test__", "test", "docs", "tests"]
+}
